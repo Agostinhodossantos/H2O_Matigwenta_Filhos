@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_marginTop="3dp"
+    android:clickable="true"
+    android:background="@drawable/bg_item_card"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_letra"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_circular"
+        android:text="A"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_mes"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_height="wrap_content"
+            android:text="Janeiro"/>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/tv_estado"
+               android:layout_width="wrap_content"
+               android:alpha="0.7"
+               android:layout_height="wrap_content"
+               android:text="Pago"/>
+
+           <TextView
+               android:id="@+id/preco"
+               android:layout_width="wrap_content"
+               android:alpha="0.7"
+               android:textColor="@android:color/holo_blue_dark"
+               android:layout_alignParentEnd="true"
+               android:layout_height="wrap_content"
+               android:text="200MT"/>
+
+
+       </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

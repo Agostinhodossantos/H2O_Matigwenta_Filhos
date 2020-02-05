@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Cadastrar_cliente"
+    tools:showIn="@layout/activity_cadastrar_cliente">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#00D11313"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tv_nome"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:maxLength="80"
+                            android:hint="Nome">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tv_apelido"
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:maxLength="20"
+                            android:layout_marginEnd="10dp"
+                            android:hint="Apelido">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="-13dp"
+                            android:editable="false"
+                            android:inputType="numberDecimal"
+                            android:maxLength="20"
+                            android:hint="+258 ">
+                        </EditText>
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tv_telefone"
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal"
+                            android:layout_marginStart="5dp"
+                            android:maxLength="20"
+                            android:hint="Telefone">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tv_Bairo"
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:maxLength="40"
+                            android:layout_marginEnd="10dp"
+                            android:hint="Bairo">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tv_zona"
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:maxLength="20"
+                            android:hint="Zona">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tv_numero_da_casa"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:maxLength="40"
+                            android:layout_marginEnd="10dp"
+                            android:hint="Numero da casa">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal"
+                            android:layout_marginStart="5dp"
+                            android:maxLength="20"
+                            android:visibility="invisible"
+                            android:hint="Zona">
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/pesquisar"
+        android:title="pesquisar"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+    <item
+        android:id="@+id/item_1"
+        android:orderInCategory="100"
+        android:title="Novo cliente"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_2"
+        android:orderInCategory="100"
+        android:title="Bloqueados"
+        app:showAsAction="never" />
+
+</menu>
